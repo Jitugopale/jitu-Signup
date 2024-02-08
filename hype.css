@@ -1,0 +1,482 @@
+#box{
+    margin-top: 50px;
+}
+
+.container{
+    border: 5px solid rgb(79, 173, 227);
+    border-radius: 20px;
+    height: 700px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    
+}
+
+@media(max-width:900px){
+    .container{
+        border: 5px solid rgb(79, 173, 227);
+        height: 950px; 
+    }
+}
+
+.row{
+    height: 100vh;
+}
+
+
+#loginn{
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+@media(max-width:1400px){
+    #loginn{
+        width: 400px;
+        height: 400px;
+        margin-top: 100px;
+        margin-left: 60px;
+        
+    }
+}
+
+
+@media(max-width:1200px){
+    #loginn{
+        width: 350px;
+        height: 350px;
+        margin-top: 130px;
+        margin-left: 60px;
+        
+    }
+}
+
+@media(max-width:1100px){
+    #loginn{
+        width: 300px;
+        height: 300px;
+        margin-top: 140px;
+        margin-left: 70px;       
+    }
+}
+
+@media(max-width:992px){
+    #loginn{
+        width: 250px;
+        height: 250px;
+        margin-top: 182px;
+        margin-left: 40px;       
+    }
+}
+
+
+
+.login{
+    text-align: center;
+    margin-top: 150px;
+}
+
+@media(min-width:900px){
+    .loginnn{
+        display: none;
+        width: 100%;
+    }
+}
+
+.sign_in_Desceiption{
+    margin-top: 15px;
+}
+
+form label{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 100px;
+}
+
+form input{
+    width: 430px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+
+@media(max-width:1400px){
+    form input{
+        width: 350px;
+        height: 40px;
+        border-radius: 10px;
+    }
+}
+
+@media(max-width:1400px){
+    form label{
+        margin-top: 20px;
+        display: flex;
+        margin-left: 90px;
+    }
+}
+
+@media(max-width:1200px){
+    form input{
+        width: 300px;
+        height: 40px;
+        border-radius: 10px;
+    }
+}
+
+@media(max-width:1200px){
+    form label{
+        margin-top: 20px;
+        display: flex;
+        margin-left: 70px;
+    }
+}
+
+@media(max-width:992px){
+    form input{
+        width: 250px;
+        height: 40px;
+        border-radius: 10px;
+    }
+}
+
+@media(max-width:992px){
+    form label{
+        margin-top: 20px;
+        display: flex;
+        margin-left: 40px;
+    }
+}
+
+@media(max-width:900px){
+    form input{
+        width: 400px;
+        height: 40px;
+        border-radius: 10px;
+    }
+}
+
+@media(max-width:900px){
+    form label{
+        margin-top: 20px;
+        display: flex;
+        margin-left: 140px;
+    }
+}
+
+@media(max-width:768px){
+    form input{
+        width: 350px;
+        height: 40px;
+        border-radius: 10px;
+    }
+}
+
+@media(max-width:768px){
+    form label{
+        margin-top: 20px;
+        display: flex;
+        margin-left: 80px;
+    }
+}
+
+@media(max-width:536px){
+    form input{
+        width: 350px;
+        height: 40px;
+        border-radius: 10px;
+    }
+}
+
+@media(max-width:536px){
+    form label{
+        margin-top: 20px;
+        display: flex;
+        margin-left: 75px;
+    }
+}
+
+@media(max-width:526px){
+    form input{
+        width: 320px;
+        height: 40px;
+        border-radius: 10px;
+    }
+}
+
+@media(max-width:526px){
+    form label{
+        margin-top: 20px;
+        display: flex;
+        margin-left: 90px;
+    }
+}
+
+@media(max-width:520px){
+    form input{
+        width: 290px;
+        height: 40px;
+        border-radius: 10px;
+    }
+}
+
+@media(max-width:520px){
+    form label{
+        margin-top: 20px;
+        display: flex;
+        margin-left: 92px;
+    }
+}
+
+@media(max-width:498px){
+    form input{
+        width: 275px;
+        height: 40px;
+        border-radius: 10px;
+    }
+}
+
+@media(max-width:498px){
+    form label{
+        margin-top: 20px;
+        display: flex;
+        margin-left: 96px;
+    }
+}
+
+@media(max-width:482px){
+    form input{
+        width: 275px;
+        height: 40px;
+        border-radius: 10px;
+    }
+}
+
+@media(max-width:482px){
+    form label{
+        margin-top: 20px;
+        display: flex;
+        margin-left: 85px;
+    }
+}
+
+@media(max-width:462px){
+    form input{
+        width: 275px;
+        height: 40px;
+        border-radius: 10px;
+    }
+}
+
+@media(max-width:462px){
+    form label{
+        margin-top: 20px;
+        display: flex;
+        margin-left: 75px;
+    }
+}
+
+@media(max-width:436px){
+    form input{
+        width: 260px;
+        height: 40px;
+        border-radius: 10px;
+    }
+}
+
+@media(max-width:436px){
+    form label{
+        margin-top: 20px;
+        display: flex;
+        margin-left: 70px;
+    }
+}
+
+@media(max-width:420px){
+    form input{
+        width: 260px;
+        height: 40px;
+        border-radius: 10px;
+    }
+}
+
+@media(max-width:420px){
+    form label{
+        margin-top: 20px;
+        display: flex;
+        margin-left: 60px;
+    }
+}
+
+@media(max-width:400px){
+    form input{
+        width: 250px;
+        height: 40px;
+        border-radius: 10px;
+    }
+}
+
+@media(max-width:400px){
+    form label{
+        margin-top: 20px;
+        display: flex;
+        margin-left: 55px;
+    }
+}
+
+@media(max-width:376px){
+    form input{
+        width: 250px;
+        height: 40px;
+        border-radius: 10px;
+    }
+}
+
+@media(max-width:376px){
+    form label{
+        margin-top: 20px;
+        display: flex;
+        margin-left: 40px;
+    }
+}
+
+@media(max-width:900px){
+    .loginnn{
+        width: 650px;
+        height: 300px;
+    }
+}
+
+@media(max-width:768px){
+    .loginnn{
+        width: 500px;
+        height: 280px;
+    }
+}
+
+@media(max-width:576px){
+    .loginnn{
+        width: 530px;
+        height: 280px;
+    }
+}
+
+@media(max-width:556px){
+    .loginnn{
+        width: 480px;
+        height: 250px;
+    }
+}
+
+@media(max-width:504px){
+    .loginnn{
+        width: 450px;
+        height: 260px;
+    }
+}
+
+@media(max-width:480px){
+    .loginnn{
+        width: 400px;
+        height: 250px;
+        margin-left: 20px;
+    }
+}
+
+@media(max-width:444px){
+    .loginnn{
+        width: 370px;
+        height: 280px;
+    }
+}
+
+@media(max-width:416px){
+    .loginnn{
+        width: 320px;
+        height: 250px;
+    }
+}
+
+@media(max-width:370px){
+    .loginnn{
+        width: 280px;
+        height: 200px;
+    }
+}
+
+@media(max-width:328px){
+    .loginnn{
+        width: 250px;
+        height: 150px;
+    }
+}
+
+@media(max-width:296px){
+    .loginnn{
+        width: 220px;
+        height: 120px;
+    }
+}
+
+
+
+
+#Username:hover {
+    border-color: rgb(4, 197, 4);
+    box-shadow: inset;
+    box-shadow: 2px 2px;
+}
+
+#password:hover {
+    border-color: rgb(4, 197, 4);
+    box-shadow: inset;
+    box-shadow: 2px 2px;
+}
+
+
+
+.button{
+    background-color: blue;
+    font-weight: 600;
+    color: white;
+}
+
+.bottom{
+    margin-top: 30px;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.platforms{
+    margin-top: 40px;
+}
+
+
+@media (max-width: 900px) {
+    .container.flex-column {
+        flex-direction: column;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .row > * {
+        width: 100%; /* Ensure each column takes up full width */
+        box-sizing: border-box; /* Include padding and border in width calculation */
+    }
+
+    #loginn{
+        display: none;
+    }
+    
+
+    
+
+    .loginnn {
+        display: block;
+        border: 2px solid black;
+    }    
+}

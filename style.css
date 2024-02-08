@@ -1,0 +1,531 @@
+#column_2{
+    font-family: 'Roboto',sans-serif;
+}
+
+.container{
+    border: 5px solid rgb(79, 173, 227);
+    border-radius: 20px;
+    height: 950px;
+    
+}
+
+
+.row{
+    height: 100vh;
+}
+
+#container_box{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.sign_up{
+ 
+    text-align: center;
+    margin-left: 30px;
+}
+
+.imgg{
+    width: 700px;
+    height: 900px;
+}
+.title{
+    margin-top: 60px;
+}
+
+.login_description{
+    margin-top: 15px;
+}
+
+.form{
+    margin-top: 10px;
+}
+
+#full-name:hover {
+    border-color: rgb(4, 197, 4);
+    box-shadow: inset;
+    box-shadow: 2px 2px;
+}
+
+#email:hover {
+    border-color: rgb(4, 197, 4);
+    box-shadow: inset;
+    box-shadow: 2px 2px;
+}
+
+#password:hover {
+    border-color: rgb(4, 197, 4);
+    box-shadow: inset;
+    box-shadow: 2px 2px;
+}
+
+form label{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 100px;
+}
+
+form input{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.button{
+    background-color: blue;
+    font-weight: 600;
+    color: white;
+}
+
+#updates{
+    margin-top: 20px;
+}
+.row{
+    flex-direction: row;
+}
+
+.platforms{
+    margin-top: 20px;
+}
+
+.images{
+    width: 600px;
+}
+.instagram{
+    display: inline;
+}
+
+.twitter{
+    display: inline;
+
+}
+
+.gmail{
+    display: inline;
+
+}
+
+.github{
+    display: inline;
+
+}
+
+#github{
+    width: 50px;
+    height: 50px;
+}
+
+#instagram{
+    width: 50px;
+    height: 50px;
+}
+
+#twitter{
+    width: 50px;
+    height: 50px;
+}
+
+#gmail{
+    width: 50px;
+    height: 50px;
+}
+
+.footer{
+    margin-top: 20px;
+}
+
+
+@media (max-width: 900px) {
+    .container.flex-column {
+        flex-direction: column;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .row > * {
+        width: 100%; /* Ensure each column takes up full width */
+        box-sizing: border-box; /* Include padding and border in width calculation */
+    }
+    
+    .container{
+        border: 5px solid rgb(79, 173, 227);
+        height: 1100px;
+        
+    }
+}
+
+@media(max-width:768px){
+    .container{
+        border: 5px solid rgb(79, 173, 227);
+        height: 1000px;
+        
+    }
+}
+
+@media(max-width:438px){
+    .container{
+        border: 5px solid rgb(79, 173, 227);
+        height: 1050px;
+        
+    }
+}
+
+
+@media(max-width:1399px){
+    .images{
+        width: 300px;
+        margin-left: 100px;
+    }
+}
+
+@media(max-width:1199px){
+    #github{
+        width: 40px;
+        height: 40px;
+    }
+    
+    #instagram{
+        width: 40px;
+        height: 40px;
+    }
+    
+    #twitter{
+        width: 40px;
+        height: 40px;
+    }
+    
+    #gmail{
+        width: 40px;
+        height: 40px;
+    }
+
+    .images{
+        width: 200px;
+        margin-right: 30px;
+    }
+    
+    
+}
+
+@media(max-width:992px){
+    #github{
+        width: 25px;
+        height: 25px;
+    }
+    
+    #instagram{
+        width: 25px;
+        height: 25px;
+    }
+    
+    #twitter{
+        width: 25px;
+        height: 25px;
+    }
+    
+    #gmail{
+        width: 25px;
+        height: 25px;
+    }
+
+    .images{
+        width: 130px;
+        margin-right: 100px;
+    }
+    
+    
+}
+
+@media(max-width:900px){
+    #github{
+        width: 40px;
+        height: 40px;
+    }
+    
+    #instagram{
+        width: 40px;
+        height: 40px;
+    }
+    
+    #twitter{
+        width: 40px;
+        height: 40px;
+    }
+    
+    #gmail{
+        width: 40px;
+        height: 40px;
+    }
+
+    .images{
+        width: 300px;
+        margin-left: 160px;
+    }
+    
+    
+}
+@media(max-width:768px){
+    .images{
+        width: 150px;
+        margin-right: 100px;
+    }
+
+    #github{
+        width: 25px;
+        height: 25px;
+    }
+    
+    #instagram{
+        width: 25px;
+        height: 25px;
+    }
+    
+    #twitter{
+        width: 25px;
+        height: 25px;
+    }
+    
+    #gmail{
+        width: 25x;
+        height: 25px;
+    }
+}
+
+@media(max-width:485px){
+    .images{
+        width: 150px;
+        margin-left: 130px;
+    }
+} 
+
+@media(max-width:450px){
+    .images{
+        width: 150px;
+        margin-left: 90px;
+    }
+} 
+
+@media(max-width:380px){
+    .images{
+        width: 150px;
+        margin-left: 70px;
+    }
+} 
+
+@media(max-width:500px){
+    .images{
+        width: 150px;
+        margin-right: 180px;
+    }
+
+    #github{
+        width: 20px;
+        height: 20px;
+    }
+    
+    #instagram{
+        width: 20px;
+        height: 20px;
+    }
+    
+    #twitter{
+        width: 20px;
+        height: 20px;
+    }
+    
+    #gmail{
+        width: 20x;
+        height: 20px;
+    }
+}
+
+
+@media(max-width:1399px){
+    form input{
+        width: 310px;
+        height: 40px;
+        border-radius: 10px;
+    }
+}
+
+@media(max-width:1199px){
+    form input{
+        width: 220px;
+        height: 40px;
+        border-radius: 10px;
+    }
+}
+
+@media(max-width:991px){
+    form label{
+        margin-top: 20px;
+        display: flex;
+        margin-left: 40px;
+    }
+}
+
+@media(max-width:900px){
+    form input{
+        width: 400px;
+        height: 40px;
+        border-radius: 10px;
+    }
+}
+
+@media(max-width:900px){
+    form label{
+        margin-top: 20px;
+        display: flex;
+        margin-left: 124px;
+    }
+}
+
+@media(max-width:767px){
+    form input{
+        width: 350px;
+        height: 40px;
+        border-radius: 10px;
+    }
+}
+
+@media(max-width:767px){
+    form label{
+        margin-top: 20px;
+        display: flex;
+        margin-left: 60px;
+    }
+}
+
+@media(max-width:517px){
+    form input{
+        width: 320px;
+        height: 40px;
+        border-radius: 10px;
+    }
+}
+
+@media(max-width:489px){
+    form input{
+        width: 300px;
+        height: 40px;
+        border-radius: 10px;
+    }
+}
+
+@media(max-width:472px){
+    form input{
+        width: 280px;
+        height: 40px;
+        border-radius: 10px;
+    }
+}
+
+@media(max-width:450px){
+    form input{
+        width: 260px;
+        height: 40px;
+        border-radius: 10px;
+    }
+}
+
+@media(max-width:425px){
+    form input{
+        width: 236px;
+        height: 40px;
+        border-radius: 10px;
+    }
+}
+
+@media(max-width:405px){
+    form input{
+        width: 228px;
+        height: 40px;
+        border-radius: 10px;
+    }
+}
+
+@media(max-width:392px){
+    form input{
+        width: 215px;
+        height: 40px;
+        border-radius: 10px;
+    }
+}
+
+@media(max-width:386px){
+    form label{
+        margin-top: 20px;
+        display: flex;
+        margin-left: 40px;
+    }
+}
+
+@media(max-width:1400px){
+    .imgg{
+        width: 500px ;
+    }
+}
+
+@media(max-width:1200px){
+    .imgg{
+        width: 400px ;
+    }
+}
+
+@media(max-width:992px){
+    .imgg{
+        width: 300px ;
+    }
+}
+
+@media(max-width:900px){
+    .imgg{
+        width: 600px ;
+        height: 350px;
+    }
+}
+
+@media(max-width:768px){
+    .imgg{
+        width: 450px ;
+        height: 300px;
+    }
+}
+
+@media(max-width:475px){
+    .imgg{
+        width: 400px ;
+        height: 300px;
+    }
+}
+
+@media(max-width:426px){
+    .imgg{
+        width: 350px ;
+        height: 300px;
+    }
+}
+
+@media(max-width:375px){
+    .imgg{
+        width: 300px ;
+        height: 300px;
+    }
+}
+
+@media(max-width:326px){
+    .imgg{
+        width: 250px ;
+        height: 250px;
+    }
+}
+
+@media(max-width:276px){
+    .imgg{
+        width: 200px ;
+        height: 200px;
+    }
+}
+
